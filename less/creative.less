@@ -72,13 +72,16 @@ aside {
 }
 
 // Navigation
-
+.navbar {
+    min-height: 80px;
+}
 .navbar-default {
     background-color: white;
     border-color: fade(@gray-darker, 5%);
     .sans-serif-font;
     .transition-all;
     .navbar-header .navbar-brand {
+        padding-top: 5px;
         color: @theme-primary;
         .sans-serif-font;
         font-weight: 700;
@@ -98,6 +101,7 @@ aside {
         > li {
             > a,
             > a:focus {
+                padding-top: 25px;
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;

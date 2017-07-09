@@ -61,6 +61,9 @@ aside {
 .no-padding {
   padding: 0;
 }
+.navbar {
+  min-height: 80px;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(0, 0, 0, 0.05);
@@ -70,6 +73,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
+  padding-top: 5px;
   color: #1b678e;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
@@ -87,6 +91,7 @@ aside {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
+  padding-top: 25px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
